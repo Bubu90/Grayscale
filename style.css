@@ -1,0 +1,123 @@
+/*font-family: 'Kanit', sans-serif;
+font-family: 'Permanent Marker', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Kanit:ital,wght@0,400;1,200&family=Permanent+Marker&family=Rajdhani:wght@300&display=swap');
+
+
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.ImmaginePrinc {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url("./image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.button {
+    background: #567E7B;
+    border-radius: 5px;
+    padding: 20px 60px;
+    color: #e0dbdb;
+
+    border: none;
+}
+
+.title {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#f7f7f7, #707070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    letter-spacing: 2rem;
+}
+
+
+.para {
+    color: #b9b7b7;
+    font-size: 23px;
+
+}
+
+#sezione2 {
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0.2));
+
+}
+
+.immagine2 {
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 50%;
+}
+
+
+
+.card2 {
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    background: #ffffff;
+
+
+}
+.card2:hover  {
+    transform: rotatex(180deg);
+    transition: transform 1s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #b9b7b7;
+  }
+
+    
+    
+ 
+
+.immagine2 {
+    background: url(./media/il_794xN.1080904658_ftnx.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+}
+
+
+.borderline {
+    border-bottom: 2px solid red;
+    width: 50px;
+
+}
+
+
+
+.linea {
+    color: red;
+    width: 50px;
+    font-size: large;
+}
+
+
+.icon2 {
+    color: #567E7B;
+
+}
+
+
+.scritta {
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+
+.margine {
+    margin-top: 100px;
+}
